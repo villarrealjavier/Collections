@@ -1,0 +1,46 @@
+package com.main;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.jupiter.api.Test;
+
+import com.model.Persona;
+
+class CollectionTest {
+
+	@Test
+	void testPrimerElemento() {
+		List<Persona> lista = Collection.generarPersona();
+		Collection.ordenarListaPersonas(lista);
+		assertEquals(lista.get(0).getApellido(),"Bunes");
+		
+	}
+	
+	@Test
+	void testListaVacia() {
+		List<Persona> lista = Collection.generarPersona();
+		lista.clear();
+		List<Persona> listaVacia = new ArrayList<>();
+
+		
+		
+		assertEquals(Collection.ordenarListaPersonas(lista), Collection.ordenarListaPersonas(listaVacia));
+	}
+	@Test
+	void testListaNula() {
+		List<Persona> lista = Collection.generarPersona();
+		lista.clear();
+		List<Persona> listaVacia = null;
+		
+
+		
+		
+	}
+	
+	
+	
+
+}

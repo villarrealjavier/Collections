@@ -1,0 +1,63 @@
+package com.jacaranda.memoryStorage;
+
+import com.jacaranda.usuario.Usuario;
+
+public class MemoryStorage {
+	/**
+	 * Esta es la clase memoryStorage en la cual guardamos las constantes con el numero maximo tanto de publicaciones
+	 * como de usuarios que tendremos, y en el tendremos métodos para añadir elementos a arrays.
+	 * 
+	 */
+	public static final Integer NUMERO_MAXIMO_USUARIOS=15;
+	public static final Integer NUMERO_MAXIMO_PUBLICACIONES=50;
+	private MemoryStorage[] listaUsuarios = new MemoryStorage[NUMERO_MAXIMO_USUARIOS];
+	private MemoryStorage[] listaPublicaciones = new MemoryStorage[NUMERO_MAXIMO_PUBLICACIONES];
+
+	
+	//constructor
+	public MemoryStorage() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	//METHODS
+	public Integer posicionUsuario() {
+		
+		return 0;
+	}
+	
+	public void addUsuario(String login,String pass) {
+		int contador=0;
+		if (contador<listaUsuarios.length) {
+			listaUsuarios[contador++]=new Usuario(login, pass);
+		}
+	}
+	
+	public void addPublicacion(String texto,String login) {
+		
+	}
+	
+	public void addPublicacion(String texto,String login,String pass) {
+		
+	}
+	
+	public void addPublicacion(String texto,String login,Integer codigo) {
+		
+	}
+	
+	public String mostrarListaPublicaciones() {
+		return "";
+	}
+	public String mostrarTweets() {
+		return "";
+	}
+	
+	public String mostrarPosts() {
+		return "";
+	}
+	public String mostrarRecomendacion() {
+		return "";
+	}
+	
+	
+
+}

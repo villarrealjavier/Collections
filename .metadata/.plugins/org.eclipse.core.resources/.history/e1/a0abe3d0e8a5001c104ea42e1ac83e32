@@ -1,0 +1,45 @@
+package com.jaracanda.publicacion;
+
+import com.jacaranda.usuario.Usuario;
+
+public class Post extends Publicacion implements Valorable{
+	/**
+	 * Esta es la clase Post la cual implementa la interfaz de Valorable y su metodo valorar
+	 */
+	private String tema;
+	private Integer numLecturas;
+	
+
+	public Post(String texto, Usuario us1, String tema) {
+		super(texto,us1);
+		this.tema=tema;
+	}
+	//GETTER
+	public Integer getNumLecturas() {
+		return numLecturas;
+	}
+
+	public String getTema() {
+		return tema;
+	}
+	
+	//SETTER HEREDADO DEL PADRE, YA QUE ES ABSTRACTO
+	@Override
+	public void setTexto(String texto) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	//METHODS 
+	@Override
+	public boolean valorar(String texto) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	//TO STRING:
+	@Override
+	public String toString() {
+		return "Post [tema=" + tema + ", numLecturas=" + numLecturas + "]";
+	}
+
+}

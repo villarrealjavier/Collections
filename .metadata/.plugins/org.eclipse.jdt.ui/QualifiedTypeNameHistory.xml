@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.Array"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="Notas.main.NotasMainApp"/>
+    <fullyQualifiedTypeName name="Notas.model.Notas"/>
+    <fullyQualifiedTypeName name="Notas.model.NotaAlarmaException"/>
+    <fullyQualifiedTypeName name="Notas.model.Bloc"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="Notas.model.NotaAlarma"/>
+    <fullyQualifiedTypeName name="com.model.BackendProgrammer"/>
+    <fullyQualifiedTypeName name="com.model.FullStackDeveloper"/>
+    <fullyQualifiedTypeName name="com.model.Candidate"/>
+    <fullyQualifiedTypeName name="com.model.Plantilla"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="com.model.WebDesigner"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="com.jaracanda.publicacion.PublicacionException"/>
+    <fullyQualifiedTypeName name="com.jaracanda.publicacion.Publicacion"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.jaracanda.publicacion.Tweet"/>
+    <fullyQualifiedTypeName name="com.jacaranda.usuario.Usuario"/>
+    <fullyQualifiedTypeName name="com.jaracanda.publicacion.Post"/>
+    <fullyQualifiedTypeName name="com.jaracanda.publicacion.Recomendacion"/>
+</qualifiedTypeNameHistroy>

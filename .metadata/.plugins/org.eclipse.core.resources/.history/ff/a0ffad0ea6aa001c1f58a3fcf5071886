@@ -1,0 +1,36 @@
+package test.java.com.utils;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class AritmeticaTest {
+
+	@Test
+	void testSuma1() {
+		Aritmetica ari = new Aritmetica();
+		Integer resultado = ari.sumar(2, 2);
+		assertEquals(resultado, 4);
+		
+		assertEquals(ari.sumar(0, 2),2);
+		assertEquals(ari.sumar(2, 0), 2);
+		assertEquals(ari.sumar(0, 0), 0);
+		
+	
+	
+	
+	
+	}
+	@Test
+	void testRestar() {
+		Aritmetica ari2 = new Aritmetica();
+		Integer resultado = ari.sumar(2, 2);
+		
+		
+		assertEquals(resultado, 0);
+		assertEquals(ari2.restar(0, 2),-2);
+		assertEquals(ari2.restar(2, 0), 2);
+		assertEquals(ari2.restar(0, 0), 0);
+	}
+
+}

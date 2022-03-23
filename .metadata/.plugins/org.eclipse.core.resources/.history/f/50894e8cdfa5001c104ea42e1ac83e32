@@ -1,0 +1,27 @@
+package com.jaracanda.publicacion;
+
+import java.time.LocalDateTime;
+
+public abstract class Publicacion implements Comparable<Publicacion> {
+	/**
+	 * Esta es la clase de publicación la cual es abstracta y de la que heredarán algunos metodos las hijas.
+	 */
+	private String texto;
+	private LocalDateTime fechaCreacion;
+	private Integer codigo;
+	private static Integer codigoSiguiente;
+	
+	//CONSTRUCTOR
+	public Publicacion(String texto, Usuario user) {
+		this.texto=texto;
+	}
+	
+	
+	
+	@Override
+	public int compareTo(Publicacion otro) {
+		
+		return 0;
+	}
+
+}

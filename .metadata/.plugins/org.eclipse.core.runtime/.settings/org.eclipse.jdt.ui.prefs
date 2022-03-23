@@ -1,0 +1,11 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Notas.model.Notas"><rhs name\="Notas.model.Notas"/><rhs name\="Notas.model.Bloc"/><rhs name\="Notas.model.NotaAlarma"/></lhs><lhs name\="Notas.model.Activable"><rhs name\="Notas.model.NotaAlarma"/></lhs><lhs name\="Notas.model.NotaAlarma"><rhs name\="Notas.model.NotaAlarma"/></lhs><lhs name\="Notas.model.Bloc"><rhs name\="Notas.model.Bloc"/></lhs><lhs name\="com.model.Backend"><rhs name\="com.model.BackendProgrammer"/></lhs><lhs name\="com.model.Candidate"><rhs name\="com.model.BackendProgrammer"/><rhs name\="com.model.FullStackDeveloper"/><rhs name\="com.model.WebDesigner"/></lhs><lhs name\="com.model.BackendProgrammer"><rhs name\="com.model.BackendProgrammer"/></lhs><lhs name\="java.time.temporal.Temporal"><rhs name\="java.time.LocalDateTime"/></lhs><lhs name\="java.time.temporal.TemporalAccessor"><rhs name\="java.time.LocalDateTime"/></lhs><lhs name\="java.time.temporal.TemporalAdjuster"><rhs name\="java.time.LocalDateTime"/></lhs><lhs name\="java.time.chrono.ChronoLocalDateTime"><rhs name\="java.time.LocalDateTime"/></lhs><lhs name\="com.model.Plantilla"><rhs name\="com.model.Plantilla"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="com.jacaranda.usuario.Usuario"><rhs name\="com.jacaranda.usuario.Usuario"/></lhs><lhs name\="com.jaracanda.publicacion.Valorable"><rhs name\="com.jaracanda.publicacion.Tweet"/></lhs><lhs name\="com.jaracanda.publicacion.Publicacion"><rhs name\="com.jaracanda.publicacion.Tweet"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

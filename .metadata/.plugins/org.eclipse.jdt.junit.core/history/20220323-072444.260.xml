@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AritmeticaTest" project="Collections" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="test.java.com.utils.AritmeticaTest" time="0.046" displayname="AritmeticaTest" uniqueid="[engine:junit-jupiter]/[class:test.java.com.utils.AritmeticaTest]">
+    <testcase name="testSuma1" classname="test.java.com.utils.AritmeticaTest" time="0.046" displayname="testSuma1()" uniqueid="[engine:junit-jupiter]/[class:test.java.com.utils.AritmeticaTest]/[method:testSuma1()]"/>
+  </testsuite>
+</testrun>

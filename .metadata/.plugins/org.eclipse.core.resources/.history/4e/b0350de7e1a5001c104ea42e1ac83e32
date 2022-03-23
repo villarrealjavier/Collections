@@ -1,0 +1,9 @@
+package com.jaracanda.publicacion;
+
+public class Recomendacion {
+
+	public Recomendacion() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

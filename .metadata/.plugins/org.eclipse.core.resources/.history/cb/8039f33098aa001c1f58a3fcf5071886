@@ -1,0 +1,38 @@
+package com.main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.model.Persona;
+
+public class Collection {
+	public static void main(String[] args) {
+		List<String> clase = new ArrayList<String>();
+		clase.add("Antonio Calzado");
+		clase.add("Pablo Perez");
+		clase.add("Sergio Romero");
+		clase.add("Javier Villarreal");
+		clase.add("Jesus Funes");
+		clase.add("Antonio Luque");
+		clase.add("Pilar Guzman");
+		
+		
+		clase.add(3,"Daniel Carpintero");
+		System.out.println(clase);
+		clase.remove("Antonio Luque");
+		System.out.println(clase);
+		clase.remove(5);
+		System.out.println(clase);
+		
+		List persona = new ArrayList<Persona>();
+		Persona Antonio = new Persona(18, "Antonio");
+		persona.add(Antonio);
+		System.out.println(persona);
+
+
+	}
+
+	
+	
+	
+}

@@ -1,0 +1,10 @@
+package com.jacaranda.usuario;
+
+public class MainApp {
+	public static void main(String[] args) {
+		Usuario us1 = new Usuario("Julian");
+		Usuario us2 = new Usuario("Julian");
+		us1.equals(us2);
+		
+	}
+}

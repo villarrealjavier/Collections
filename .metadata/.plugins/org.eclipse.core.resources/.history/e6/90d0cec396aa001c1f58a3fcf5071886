@@ -1,0 +1,26 @@
+package com.main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Collection {
+	public static void main(String[] args) {
+		List<String> clase = new ArrayList<String>();
+		clase.add("Antonio Calzado");
+		clase.add("Pablo Perez");
+		clase.add("Sergio Romero");
+		clase.add("Javier Villarreal");
+		clase.add("Jesus Funes");
+		clase.add("Antonio Luque");
+		clase.add("Pilar Guzman");
+		
+		clase.remove("Antonio Luque");
+		clase.remove(6);
+
+
+	}
+
+	
+	
+	
+}

@@ -1,0 +1,18 @@
+package com.jaracanda.publicacion;
+
+import com.jacaranda.usuario.Usuario;
+
+public class Recomendacion extends Publicacion{
+	private Integer numeroEstrellas;
+
+	public Recomendacion(String texto,Usuario us1,Integer numeroEstrellas) {
+		super(texto,us1);
+	}
+	//SETTER HERDEDADO DEL PADRE
+	@Override
+	public void setTexto(String texto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

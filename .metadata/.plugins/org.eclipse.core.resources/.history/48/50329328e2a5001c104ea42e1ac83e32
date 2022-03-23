@@ -1,0 +1,9 @@
+package com.jaracanda.publicacion;
+
+public class Recomendacion {
+
+	public Recomendacion(String texto,Usuario us1,Integer valoracion) {
+		super(texto,us1,valoracion);
+	}
+
+}

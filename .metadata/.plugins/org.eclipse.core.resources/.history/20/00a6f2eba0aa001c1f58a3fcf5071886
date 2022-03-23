@@ -1,0 +1,9 @@
+package test.java.com.utils;
+
+public class Aritmetica {
+
+	public Aritmetica() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

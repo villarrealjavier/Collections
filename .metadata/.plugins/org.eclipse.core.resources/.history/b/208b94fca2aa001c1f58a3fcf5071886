@@ -1,0 +1,17 @@
+package test.java.com.utils;
+
+public class Aritmetica {
+
+	public Aritmetica() {
+	
+	}
+	public Integer sumar (Integer numero1, Integer numero2) {
+		int resultado=0;
+		resultado=numero1+numero2;
+		return resultado;
+	}
+	public Integer restar (Integer numero1, Integer numero2) {
+		
+		return 0;
+	}
+}

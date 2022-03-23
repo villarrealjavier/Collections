@@ -1,0 +1,9 @@
+package com.jaracanda.publicacion;
+
+public class Tweet {
+
+	public Tweet() {
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.jaracanda.publicacion;
+
+import com.jacaranda.usuario.Usuario;
+
+public class Recomendacion extends Publicacion{
+
+	public Recomendacion(String texto,Usuario us1,int valoracion) {
+		super(texto,us1,valoracion);
+	}
+	//SETTER HERDEDADO DEL PADRE
+	@Override
+	public void setTexto(String texto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

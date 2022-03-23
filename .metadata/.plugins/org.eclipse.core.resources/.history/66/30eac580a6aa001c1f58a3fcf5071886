@@ -1,0 +1,21 @@
+package com.main;
+
+import org.junit.jupiter.api.Test;
+
+import com.model.Persona;
+
+class CollectionTest {
+
+	@Test
+	void testPrimerElementoFelipe() {
+		Lista<Persona> lista = Collection.generarPersona();
+		
+	}
+	@Test
+	void testListaVacia() {
+	}
+	@Test
+	void testListaOrdenada() {
+	}
+
+}

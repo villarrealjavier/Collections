@@ -1,0 +1,35 @@
+package com.model;
+
+import java.time.LocalDate;
+
+public class Persona implements Comparable<Persona>{
+	private int edad;
+	private String nombre;
+	private String apellido;
+	private LocalDate fechaNacimiento;
+	
+	public Persona (int edad,String nombre,String apellido, LocalDate fechaNacimiento) {
+		this.edad=edad;
+		this.nombre=nombre;
+		this.apellido=apellido;
+		this.fechaNacimiento=fechaNacimiento;
+	}
+
+	@Override
+	public String toString() {
+		return nombre+ ","+ edad + ","+ fechaNacimiento;
+	}
+
+	@Override
+	public int compareTo(Persona other) {
+		if (this.apellido!=null) {
+			if (this.apellido.compareTo(other.apellido)) {
+				
+			}
+		}
+		else {
+			throw new PersonaException("Se ha producido una excepcion");
+		}
+		return 0;
+	}
+}

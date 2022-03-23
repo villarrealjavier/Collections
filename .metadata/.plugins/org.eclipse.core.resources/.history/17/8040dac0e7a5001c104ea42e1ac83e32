@@ -1,0 +1,8 @@
+package com.jacaranda.usuario;
+
+public class MainApp {
+	public static void main(String[] args) {
+		Usuario us1 = new Usuario();
+		
+	}
+}

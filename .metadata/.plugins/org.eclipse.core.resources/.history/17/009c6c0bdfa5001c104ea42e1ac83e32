@@ -1,0 +1,11 @@
+package com.jaracanda.publicacion;
+
+public abstract class Publicacion implements Comparable<Publicacion> {
+
+	@Override
+	public int compareTo(Publicacion arg0) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

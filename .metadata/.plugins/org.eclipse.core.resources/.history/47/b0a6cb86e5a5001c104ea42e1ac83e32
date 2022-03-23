@@ -1,0 +1,5 @@
+package com.jacaranda.memoryStorage;
+
+public class MemoryStorageException extends RuntimeException {
+
+}

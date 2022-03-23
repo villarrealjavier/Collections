@@ -1,0 +1,37 @@
+package com.jacaranda.memoryStorage;
+
+public class MemoryStorage {
+	/**
+	 * Esta es la clase memoryStorage en la cual guardamos las constantes con el numero maximo tanto de publicaciones
+	 * como de usuarios que tendremos, y en el tendremos métodos para añadir elementos a arrays.
+	 * 
+	 */
+	public static final Integer NUMERO_MAXIMO_USUARIOS=15;
+	public static final Integer NUMERO_MAXIMO_PUBLICACIONES=50;
+	
+	//constructor
+	public MemoryStorage() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	//METHODS
+	public Integer posicionUsuario() {
+		
+		return 0;
+	}
+	
+	public void addUsuario(String login,String pass) {
+		
+	}
+	
+	public void addPublicacion(String texto,String login) {
+		
+	}
+	
+	public void addPublicacion(String texto,String login,String pass) {
+		
+	}
+	
+	
+
+}

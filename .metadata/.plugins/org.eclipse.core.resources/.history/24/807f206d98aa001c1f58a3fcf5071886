@@ -1,0 +1,17 @@
+package com.model;
+
+public class Persona {
+	private int edad;
+	private String nombre;
+	private LocalDate fechaNacimiento;
+	
+	public Persona (int edad,String nombre) {
+		this.edad=edad;
+		this.nombre=nombre;
+	}
+
+	@Override
+	public String toString() {
+		return nombre+ ","+edad;
+	}
+}

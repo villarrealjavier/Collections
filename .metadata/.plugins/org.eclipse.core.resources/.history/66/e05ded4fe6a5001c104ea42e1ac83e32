@@ -1,0 +1,38 @@
+package com.jaracanda.publicacion;
+
+import com.jacaranda.usuario.Usuario;
+
+public class Recomendacion extends Publicacion implements Valorable{
+	private Integer numeroEstrellas;
+
+	public Recomendacion(String texto,Usuario us1,Integer numeroEstrellas) {
+		super(texto,us1);
+		this.numeroEstrellas=numeroEstrellas;
+	}
+	//METHODS
+	@Override
+	public boolean valorar(String texto) {
+		
+		return super.valorar(texto);
+	}
+	
+	//GETTER
+	public Integer getNumeroEstrellas() {
+		return numeroEstrellas;
+	}
+	
+	
+	//SETTER HERDEDADO DEL PADRE
+	@Override
+	public void setTexto(String texto) {
+		
+		
+	}
+	//TO STRING
+	@Override
+	public String toString() {
+		return "Recomendacion [numeroEstrellas=" + numeroEstrellas + "]";
+	}
+	
+
+}

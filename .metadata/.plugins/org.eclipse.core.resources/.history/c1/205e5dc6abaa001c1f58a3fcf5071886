@@ -1,0 +1,16 @@
+package com.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.time.LocalDate;
+
+import org.junit.jupiter.api.Test;
+
+class PersonaTest {
+
+	@Test
+	void test18EsMayorEdad() {
+		Persona p1 = new Persona(LocalDate.now().minusYears(18),"Javier","Villarreal");
+	}
+
+}

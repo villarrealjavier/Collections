@@ -1,0 +1,21 @@
+package com.jaracanda.publicacion;
+
+import com.jacaranda.usuario.Usuario;
+
+public class Post extends Publicacion implements Valorable{
+	private String tema;
+	private Integer numLecturas;
+	
+
+	public Post(String texto, Usuario us1, String tema) {
+		super(texto,us1);
+		this.tema=tema;
+	}
+
+	@Override
+	public void setTexto(String texto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

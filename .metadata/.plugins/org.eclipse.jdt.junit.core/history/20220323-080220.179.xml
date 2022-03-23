@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CollectionTest" project="Collections" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.main.CollectionTest" time="0.073" displayname="CollectionTest" uniqueid="[engine:junit-jupiter]/[class:com.main.CollectionTest]">
+    <testcase name="testPrimerElemento" classname="com.main.CollectionTest" time="0.07" displayname="testPrimerElemento()" uniqueid="[engine:junit-jupiter]/[class:com.main.CollectionTest]/[method:testPrimerElemento()]"/>
+    <testcase name="testListaVacia" classname="com.main.CollectionTest" time="0.001" displayname="testListaVacia()" uniqueid="[engine:junit-jupiter]/[class:com.main.CollectionTest]/[method:testListaVacia()]"/>
+  </testsuite>
+</testrun>

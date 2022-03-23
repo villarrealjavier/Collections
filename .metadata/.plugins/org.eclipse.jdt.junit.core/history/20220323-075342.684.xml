@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CollectionTest" project="Collections" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.main.CollectionTest" time="0.072" displayname="CollectionTest" uniqueid="[engine:junit-jupiter]/[class:com.main.CollectionTest]">
+    <testcase name="testPrimerElemento" classname="com.main.CollectionTest" time="0.072" displayname="testPrimerElemento()" uniqueid="[engine:junit-jupiter]/[class:com.main.CollectionTest]/[method:testPrimerElemento()]"/>
+  </testsuite>
+</testrun>

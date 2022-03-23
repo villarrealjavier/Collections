@@ -1,0 +1,16 @@
+package test.java.com.utils;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class AritmeticaTest {
+
+	@Test
+	void testSuma1() {
+		Aritmetica ari = new Aritmetica();
+		Integer resultado = ari.sumar(2, 2);
+		assertEquals(resultado, 4);
+		}
+
+}

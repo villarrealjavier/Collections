@@ -1,0 +1,26 @@
+package com.jacaranda.usuario;
+
+public class Usuario {
+	private String login;
+	private String pass;
+	
+	
+	//CONSTRUCTOR
+	public Usuario(String login,String pass) {
+		this.login=login;
+		this.pass=pass;
+	}
+	
+	
+	
+	//GETTERS
+	public String getLogin() {
+		return login;
+	}
+	public String getPass() {
+		return pass;
+	}
+	
+	
+
+}

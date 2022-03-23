@@ -1,0 +1,9 @@
+package com.jacaranda.memoryStorage;
+
+public class MemoryStorage {
+	public static final Integer NUMERO_MAXIMO_USUARIOS=15;
+	public MemoryStorage() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

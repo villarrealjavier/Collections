@@ -1,0 +1,9 @@
+package com.jacaranda.memoryStorage;
+
+public class MemoryStorage {
+
+	public MemoryStorage() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

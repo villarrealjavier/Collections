@@ -1,0 +1,71 @@
+package com.jacaranda.usuario;
+
+import java.util.Objects;
+
+
+
+public class Usuario {
+	
+	private String login;
+	private String pass;
+	
+	
+	//CONSTRUCTOR
+	public Usuario(String login,String pass) {
+		this.login=login;
+		this.pass=pass;
+	}
+	public Usuario(String login) {
+		this.login=login;
+		
+	}
+	
+	//METHODS 
+	public boolean checkPass(String pass) {
+		
+		
+		return false;
+	}
+	
+	public boolean setPass(String login,String pass) {
+		
+		return false;
+	}
+	
+	
+	
+	//GETTERS
+	public String getLogin() {
+		return login;
+	}
+	public String getPass() {
+		return pass;
+	}
+
+	
+	@Override
+	public int hashCode() {
+		return Objects.hash(login);
+	}
+
+	
+
+	@Override
+	public boolean equals(Object obj) {
+		boolean sonIguales=false;
+		Usuario other = (Usuario) obj;
+		if (this.login.equalsIgnoreCase(other.login)) {
+			sonIguales=true;
+		}
+
+		return sonIguales;
+	}
+	//TO STRING:
+	@Override
+	public String toString() {
+		return "Usuario [login=" + login + ", pass=" + pass + "]";
+	}
+	
+	
+
+}

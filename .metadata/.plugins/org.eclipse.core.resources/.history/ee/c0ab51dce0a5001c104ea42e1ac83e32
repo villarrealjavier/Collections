@@ -1,0 +1,9 @@
+package com.jaracanda.publicacion;
+
+public class Tweet extends Publicacion{
+
+	public Tweet(String texto, Usuario us1) {
+		super(texto,us1);
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.main;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Collection {
+	public static void main(String[] args) {
+		List<String> clase = new ArrayList<String>();
+		clase.add("Antonio", "Calzado");
+		clase.add("Pablo");
+		clase.add("Sergio");
+		clase.add("Javier");
+		clase.add("Jesus");
+		clase.add("Luque");
+		clase.add("Antonio");
+
+
+	}
+
+	
+	
+	
+}

@@ -1,0 +1,35 @@
+package com.jaracanda.publicacion;
+
+import com.jacaranda.usuario.Usuario;
+
+public class Tweet extends Publicacion{
+
+	/**
+	 * Esta es la clase tweet la cual recibe un método asbtracto del padre, y en el constructor coge sus atributos
+	 * @param texto
+	 * @param us1
+	 */
+	public Tweet(String texto, Usuario us1) {
+		super(texto,us1);
+	}
+	//SETTER DEL PADRE
+	@Override
+	public void setTexto(String texto) {
+		// TODO Auto-generated method stub
+		
+	}
+	//METHODS
+	@Override
+	public boolean valorar(String texto) {
+		// TODO Auto-generated method stub
+		return super.valorar(texto);
+	}
+	
+	//TOO STRING
+
+	@Override
+	public String toString() {
+		return "Tweet []";
+	}
+
+}
